@@ -1,50 +1,194 @@
-# Ex.No.4-EXP 4 Generate the Prompt and evaluate that for following prompt patterns - Zero-shot Prompting.•	Few-shot Prompting - Chain of Thought -	Persona Pattern - Reverse Prompting - Graph Prompting - Active Prompting
-### DATE:                                                                            
-### REGISTER NUMBER : 
-### Aim: To write the prompt for the following prompt types and compare that with different AI tools and evaluate that using any one evaluation method (Ex. Rubrics). Zero-shot Prompting.•	Few-shot Prompting - Chain of Thought -	Persona Pattern - Reverse Prompting - Graph Prompting - Active Prompting 
+You can enhance your **Experiment No. 3** report by inserting the following images at appropriate sections with short descriptions.
 
-### Explanation - Any one use case from Unit 5 and write the prompt for that with the unit 2 Prompt types given above.
+---
 
-Procedure:
-1.	Define the Scenario and Use Case:
-Scenario:
-The manufacturing industry is looking to reduce manual monitoring and increase efficiency through automation. The system will utilize IoT devices and embedded controllers to automate equipment, monitor performance, and enable predictive maintenance. The goal is to streamline the production process, minimize downtime, and enhance energy efficiency.
-Target Audience:
-Manufacturing companies, specifically in sectors like automotive, electronics, and food processing, where automation can significantly improve productivity.
+# **Experiment No. 3 – Advanced Prompt Engineering Techniques**
 
-Main Objectives:
+## **Aim**
 
-•	Improve production efficiency by 30%.
-•	Minimize machinery downtime with predictive maintenance.
-•	Enable real-time monitoring and remote control of manufacturing systems.
-•	Reduce energy consumption by optimizing processes.
- 
-2.	Identify Prompt Patterns for Each Design Aspect:
-Idea Generation Prompts:
+To understand and apply **Advanced Prompt Engineering Techniques** by designing prompts for an AI-powered customer support chatbot.
 
-Comparative Analysis Prompt
-Definition: Asking for a comparison between two or more concepts, often highlighting similarities and differences.
-•	"Compare and contrast deep learning and machine learning."
-•	"How do renewable and non-renewable energy sources differ?"
+---
 
-Experiential Perspective Prompt:
-> 	“As a software engineer, what are the benefits of using cloud computing in your projects?”
->  “From a student’s perspective, describe the challenges of online learning.”
+## **Objective**
 
-Everyday Functioning Prompts:
-*	  “Describe the role of machine learning in everyday apps like YouTube or Netflix."
-*	 	“How is encryption used in daily life when sending WhatsApp messages?”
+The chatbot assists customers in:
 
-Universal Prompt Structures:
-^ 	“Explain [concept] in simple terms with an example.”
-^  “Explain the process of [task] step by step.”
+* Product troubleshooting
+* Order tracking
+* General customer inquiries
 
-Prompt Size Limitations:
-&  	“Translate this 5000-word essay into Tamil.”
-→ Manageable chunks: “Translate the first 1000 words into Tamil, then continue.”
-&  “Give me 50 examples of AI applications.”
-→ Adjust for size: “Give me 10 AI applications at a time.”
+The chatbot should provide accurate, helpful, and conversational responses.
+
+### **Customer Support Chatbot Overview**
+
+![Image](https://images.openai.com/static-rsc-4/aXjGAwArMZLTk9Y6T4fYYo_AfqCLWGm9OLjcmWNkzCfoA6Ns9xxXeAT4bGlgIBbdKgoRsRnOi21eCrQohBzFsCfK4EjHKe4uYUkm8jb2HxJrRiQsoBW0a-tAnwniZQ6SzwuyOWSg-GE5Kt2Y3RzfPpLUU6PU0xfEu-aGys7Y4yhuDF_krJq5J4s37q9arL1-?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/5DTBMzUVSOH7ef11xKtQswqEFZ9-L45L9ihJGpMqaPuyCPzF5QmWeYOk9BCXefj9b_40fXRj9D_e8AK1agBpYBuXfmFWxzH6oZ7acbkA3hKmYI2pMVjRP8KAAhlMS9fMME1DazyOsJWCDDufpt-Srm3DNSQPFNMjdnnqqGwHVl1VFumrEGRCK8k3MubLHcCH?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/slFR17ibrHsI0Qgg-rhaj4IeE_HsHJXmyPur60pHi6nAvEV_u_wvB6jIeaoG_-Jj1FUqdkHQmVbVoBMOlRNfKG0ACbwjOAQJRe9x8yDzqywNCrR6Vr8Kyi5RhkAtTIeylBOBXKje9tys2UfaVM4ocLLZ33sHjR3BTsf15mODx9bW6k_4tx-JgLEwA_hdMc9A?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/GLLg4coe7xtrOn8HQlfkQCPLJOd-4DQA6E3HiTssas5o31172LTBQKRjQJrfmuReqwTrGniAKzzDlNzgJZpzyDsVnJ7l7LeiHO0qqoyR6CUtklLqbz-_D8wbyO82KTByRcBMKKxMQnH1GvvSJZ-WhnxVdxAKhka-ReR68dThnTMhREN0GxPo0wFXD0LqS_70?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/Y0FWyMU-L8xBvG0a1gBZQgRC0kvJd7fvMlys4ChloskvYD3xnZcDOGkhYhcpQ8N5RbWf4IxcDUR4NaJw0cJuvObojlEWepis4iW7j0Cgt7mCa5--sHSONQbF2zlrQx9mEcp_nRWe2g4IC_PO7IE6zh7__WZLQoRnv_AYszI4-Wn-PMqDBNRMMiX4oNN3nx9w?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/WhbWJENd-tqPHJPXu7XYXU17i0bJYjgRCe0b7v6LBqd6ZhfdVhPUpWdqUdg7cwsfv-5VqbYFYNWOWECAL0QVYIdtZHPOQ7ifP7920yGCsc5xBvXdYSEg8Vo2WEstARFrGYTJDuWvGhleUyZ_h8YB36C5applviaO6LnJmffZnVhSlZWAvFOIe7z2WRGiNsD0?purpose=fullsize)
+
+**Figure 1: AI-Powered Customer Support Chatbot**
+
+An AI-powered customer support chatbot helps customers resolve common issues such as product troubleshooting, order tracking, and answering general inquiries. It provides instant, accurate, and user-friendly responses, reducing response time and improving customer satisfaction.
+
+---
+
+# **AI Tools Used**
+
+* ChatGPT (OpenAI)
+* Google Gemini
+* Microsoft Copilot
+
+### **Popular AI Chatbots**
+
+![Image](https://images.openai.com/static-rsc-4/TTCkRO22Pc_lbxeDTrU0tzJBzv1gfvygwseaX30tj1GqDmF53dP61XGjkqSs3uxfzJ7qOOwNLFxIQghym0FJL6nHZ9EAYvZDqlqctifmsZMClIy5yHMaWevOO9A-c4fhqEtIThz6ub3ePQ_Run6fwzgCcuRAFnBpRl6C-ezIoV-aflnNkZD7feVVimHCrB2i?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/WgVMg20VQqvNTpKeL5ORCU4Oo__il4FTSomLsZBPOlmj8acNM5Y64xgxC1l-6s5KqvfrI9vcZ2QWtpNhx3kQipwzhKfZOtnA1BFQvZwEvU0JmAinGAlwXCXxrMeG0pI9sxxqXWjrSsi5_E1XPafhMktKBgdd_ChJNquJVXFeOD8dh_Cr7aF0E7UvM2PapcfX?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/T4RExMMpJtYRgu1Id2HQwpLvHCWOx7at7qgO_7eKj7dBUyU7utv2XsfxDM9ap_o7rIQVnWl6J0SWzPHuhV6314Z2NqtMguAdLuaMmu9Q09V8m2g9OBELEuFpE4zZKbMzQJ0NnixA7xocXZn9yEjk_jlsL3r7pLNQ0NmkFOJIhBM4C0v-ci3y6po63Y1zqrKa?purpose=fullsize)
+
+**Figure 2: AI Tools Used for Comparison**
+
+The experiment compares responses generated by three popular AI models. Each tool is evaluated based on response quality, reasoning ability, formatting, and overall user experience.
+
+---
+
+# **1. Straightforward Prompting**
+
+### Description
+
+Straightforward prompting provides the AI with a direct instruction without any additional examples or context.
+
+![Image](https://images.openai.com/static-rsc-4/DQFOC1ugQyofPKn6WaY_KFzPoLD2jCwsEpY8fxK27BRZFwgMCT_gwViWRkx-XAVRdBtzvBboZSwMmZyhOS69XHUZyZswvQsqG2DVDt61WoAX_n61r6zoP6389EDWeKkMfSzWkE2RZDfLP7sXBg8mmUNbIszBdahF9xayq2-H5pyubgyyge7yAMP0WwwbgUxF?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/weIbfQ88lxwl2FtwIvMvsgu6QrsAsq_JPxGs6p87_-d8QHLrnLPzvICuGhs1V7J8XR06il05wGwnriTpJva09x4Let2ewnWk4dSbL-Gczw0so4B7p_SZhYsW5s6N6h5bP8MzEt5VH5FXsElFy2pj6XwA1VBXBinNdckf7yPjxS_SjqnDxy9WRsJ4syePAEaO?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/rJTyjwg3Cbg9nEx6sqpHXeIFE8ijHmTbzxpjPocFx0YvhWfjzLCQRJMqjqa2LfmDGLQNivJCtw3fWBIZu0iHcuWMXckrgPsUbFmMPri1VDeOqPPc-pYfhTZWAI2pI9xgPxt_8v9XYAZY4qLoZULU44XoTaXRLu7_0eYymT8C1wQpwP73Hksn_FPcERmg_18o?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/jUoEBRMk58150qI7v3v27YKQ6HSOHuVQs8lp_A9xJ-SUDIqoaYElnpUYr6QBaZZBvRovMOhNztE0OQhCavvHNCmRxqg1Ptjcl35LKvj21ya0cez9cKsbYsleJXc33cMnHRnYytXe1_vh2u8ghyw23xJHMn97KhNRlgILNWvnByKRAQhu9JNJ7dE8W-rcIp4B?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/bkVmSQNw0MtsqLl0yjojm3rp1IhJ9gNE2LL6pc0idR7T7l7tY0lvIsdNWL4g0t0Hv2MhqQ0hBBF_B79RlnCrDumJEtepbkkFaTCHg2WUkGYv1F5_Vjgm6KQ2KKeS3KGOrz712yIDgD6cimG6eVH8AmanXmCvZ2j7k8vk6d14h-HE_wVMR_L66zarswQT1Yo9?purpose=fullsize)
+
+**Figure 3: Straightforward Prompting**
+
+The chatbot receives a simple request and immediately generates a troubleshooting response. This technique is suitable for direct customer support questions where quick answers are required.
+
+---
+
+# **2. Tabular Format Prompting**
+
+### Description
+
+Tabular prompting requests information in a structured table format, making comparisons easier.
+
+![Image](https://images.openai.com/static-rsc-4/ZndQobr3a7aiPwQ0DQUz9785ks8E9j2R13463BBjm603Y7tzcvcGCtFNpsBR6B-xREwaoz7so5GDNn2nmau_S5izVdKFqLh1EiT6gxlWKkbe8FnQ0LOHcOpFADXK3CBwQ9EnNTIp9J9Pt8r_TP195itZa0e5qawFCVKLpC_oM_aly4uxztExpkXFYlBc5-bs?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/TghRK6WhVbIpLb8A9yc6bH3rCh05wDPOetV4tgA1_nWD3FoNkEjq7NOKfGJa9JbyuhU_H488NercNOmy8jF7-llBA1Rz2u1UahlgOdEOkpjQ3FYbf2DIyUM6XNhdDmmv9oGclyKaReT-UDPkOh_s8wzBA5bjGWDVfWcpHvuEvJ9TqAS3O46gt9rn18I7mtCK?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/3ccwZq4XWzf9nCVyjEoFDs372Uo2JSwEP58QYNDtz2q_YwhKppQnwwIbxtKzvhUzPgXmWFBSbN3qWKK_jZcSByT7Moi_iq7OtaB6n_vdVzhAAiMMe1JIZt7Aokp5gmnivwIe0XCAA6K2K5zi8sEJocFGohByxHNKy0U8OJhcOrSeWbBrkxtRLNE8H_PfzL0i?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/mQ69pPreP-W38YT0uS-xyJRA1KZEGkSikLqV7N24_YLjEzlxpR7LqVDKhfbMr97kty466bUpqE_EckjCIiRiOCIzg2KxcDeQjBu_gX5DfMeCParwlAdP0o7F47o7_Omhax7ctOouHOTyUOeUKMqPmhesJMyfmtH1iBKV7A_f4r3UddMA_N8Kz_M84unvwMGP?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/PLyZ_66805S8y15RmHztpOAbev6aO4PPdB25FjAinAqjfe8VyFcIWRhhlWWXjOIopRFr5vWT10Q1zAf5IGgzYWlaudwJWEaMDBgAfTRR3eaIEPgmOQ7GQi3A1jFJcklUBrP2u-2_iQliBZAhhRhtuMI_7WGeA7u4gWmlHqCGCH5UgL5YpsMvlxLtfO_q5iDc?purpose=fullsize)
+
+**Figure 4: Tabular Format Prompting**
+
+The AI organizes customer queries, chatbot responses, and order status into a table. This format improves readability and allows users to compare information efficiently.
+
+---
+
+# **3. Missing Word Prompting**
+
+### Description
+
+Missing Word Prompting evaluates the AI's ability to predict missing words based on context.
+
+![Image](https://images.openai.com/static-rsc-4/8_kXonmzIqBVvxDBI1KAJvUNn7JqD6-JXYD5FSY-mBVOV4nhu4Q3ioESG3BtqlLIEQx458DrbpNQy5_GSsGxnrs9AwCFZDVrsBMMokK6l3pnV2hNWimWIkeCbGEUJneVyyqzmKQ87XoApUN-TMWc_IvuhcWNRn7MybsHuuHYliyvcBEUtFFkF78RZ-b3rODc?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/TbX0QGi2L4vhZvN6yncFdQqCkjvw31HvR4FLp3TFK-hpLB_P9b1H0U-2DB1kB2HvGRZM5RfX5SKTKQvrhgshqSwt37AqGNaUJCA739oo_fB2FaWIXP45-eFm-fUVM1JzwmUwA6v18OsKWB0IBpCMlAm0He4DmpFpNdH1w1qKmmqs2GpFBTkfjKCxEwLTV37w?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/smvN4OQT_2HmUCXm5TJjDoFcDs0xO4RRBl_ZNmxhxLQlsP3IVxc83T2JI1oKvbXRF-_zkeYMD4_CooSGHyN95ef7jgAl2kUheEWaW6O3KQQnmZL2kzgDZU6DfnCMbpTEI3xqvYiyGFQKVl4GNTdr8kRHrsrGRsBCFs7g3OfiLzJ9IU67774UICyzcrwK5jLQ?purpose=fullsize)
+
+**Figure 5: Missing Word Prompting**
+
+The AI predicts the most suitable missing word by understanding the context of the sentence. This technique is commonly used for language learning, text completion, and contextual reasoning.
+
+---
+
+# **4. Preceding Question Prompting**
+
+### Description
+
+Preceding Question Prompting asks one or more guiding questions before generating the final answer.
+
+![Image](https://images.openai.com/static-rsc-4/zeRz4bJBfICq1hLkGmvrF1ym6MP1ljOcwjCzGMSpdIovW-z1e1NVCIZcy5lPNk61k8fZgurRU0OGOR8qsEAElAmJZmz_wJgz5frvwlRRMQqlQp5sG0m82k7h_wN3wadQAj9YbJuvPL8OCqUt8LGEVdurXv3u3BBVt0bX4qUHiDE2TkHkgk2KThacaTCF22ko?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/aJnKOuJAgZLdP9XS40ILram4Vz3yaXEarvtIiSiML20PGuBocHc_y5GNoMYTCG5oB3dZBkgIX_Q3NQ9ab2Btq4E_yqm81l_znEb7M1OkC5U44_k9QP9xYbQuCziRIEPGFWD_M6ykIvQ958gxKCwkFc-u4ibOqW7CG5751HtFEE6LcjcePZfK7oS0s6eR_tFa?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/zCdNan-yMTwMGLlO2chPZGiiOpUHrck5JN4eoQfejeySEXH-q5YGxAgROs2wmPB6S705LfgjuMVlnGaI05E_7BGosHSMrCVpoCtoPbdg8TcsHl0mgpAH7gXffbkTCkvkfU-UXmMMct3h7PqtWxegYbscnrN7VNWiqoKWnvG15vj9onJtrfmYmg5wrxi9FjxP?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/VWMjfcvKHwTeVeR1lQIU_FAAtlEdo-HO3HLWzdE-Pc-U1kaav987tXi9tcnGEZSFKV__6xPHBNOkPxm1C-IQx4SRR3saFE3hs2n6upY4ZmPyxMIdbFDxQkgKsl5iqJHJpX3YHEu64b5LUoUDOB0COce27H9schYjbsM9Bl7bZDAzGKnkI6fYTGP-PuEOT1Ea?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/aXjGAwArMZLTk9Y6T4fYYo_AfqCLWGm9OLjcmWNkzCfoA6Ns9xxXeAT4bGlgIBbdKgoRsRnOi21eCrQohBzFsCfK4EjHKe4uYUkm8jb2HxJrRiQsoBW0a-tAnwniZQ6SzwuyOWSg-GE5Kt2Y3RzfPpLUU6PU0xfEu-aGys7Y4yhuDF_krJq5J4s37q9arL1-?purpose=fullsize)
+
+**Figure 6: Preceding Question Prompting**
+
+Before providing a solution, the AI gathers important information by asking relevant questions. This improves response accuracy and helps diagnose customer problems more effectively.
+
+---
+
+# **Overall Comparison**
+
+### **Comparison of AI Tools**
+
+![Image](https://images.openai.com/static-rsc-4/nKj-wJACbxp2rR9DqSCF_pXdJfsl7fp5_EBX_ud3kHbJMqb75C3pTQJV50ReM_kZouh8ZZkuBh5JwA6CyMpKFVU16wjM0CINb6dtPiy_wytXb4TWBKsdhje9Z0BNR9Tc2sD9H0EhVQv6aeypFX33KS2dtvkskL0Dz9KRMbz7K2lu_s9rn5KstpTJot4YK4h0?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/K22GQHOG4T4xUVWXrPJ9TZxh2fXSB9xjl5fla4M0MM4jIql5uz7tsYEFmL0IYfGJE0-amDOtrJYxhp357Jobcc2vrm5MlDoCpunvrt0nj4vPMicV-bpXBbSUFf6HbfbqHeqc98lki7Re8KRghqDDq0EPL91lSQsb8U-nufaiZ1Ffk1bjVf-0XctECWdMGUqh?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/LFkrv8duUYD8D02eG6zR5lXA_HwYk0RcUX3rAmymivlQ25yYGgdjxPUpgHZ8kG7avYy4ZvIsCFaz_g1P5gytLgreXRVGmknHJxoUy1cFTXFAYbjFaGV2RoyGdwwRFVFtTFcEGDsLgixmaqJvEdka9zO8P8-YrlIUH3ccl5w-ZlNQ1XS8omjnyqKkyuCcdIo2?purpose=fullsize)
+
+**Figure 7: Comparison of AI Tools**
+
+The comparison highlights the strengths of different AI models. ChatGPT provides detailed and conversational responses, Gemini delivers concise and accurate answers, while Microsoft Copilot offers well-structured and professional responses.
+
+---
+
+# **Advantages of Prompt Engineering**
+
+### **Prompt Engineering Workflow**
+
+![Image](https://images.openai.com/static-rsc-4/l476aEk4lf5sL_vk4D8A_A9zweB3fb0jL6Y-kvuA24ooxkRknzZlvBzV6QOrawjLL8Jms60DfQ_VoiwE08eNEbsu9UnDbaFzv_8fQG5p4bWjJdvv8Dwu8ISANl9E3t2I0Ffus2-reer_sHIuTb7AH400FH5bbt-A5ZG9Ah9GIIupbQjfVLTgtGjXLC8Tj6rN?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/Euw76V8CZ_dn3r6jz08dlKNrHizp4f7Yssjz6IxkNwhYDPFfyLnWJ-0IQpoZJPjrFqAouDWYUdLdw5D7mmD21vWt8P38-yFsvaF1CUOJpiqNm52K7cOUdT5mB-sr2cJSzChsDh9kJHWbHLm6hgrnzL-TuhVAMrKQZ5U8HE2NFOVXHeCalWiUYelYd3-S_PFR?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/R8KS_eZogG18w6nHDm3kbOG9uXDSto0_x6ZUl04Oe19s2JZE5nfK_idNXs_V6WDgaJyGEG_kxxgvCj8YtMwP1-qJw5MPzjG00zUydqohJeOY5n6Ns1muU9qjR79Kcj3ldoDn5bw7RxvencworYEwSWjz6FEVUZcjxZyzEuCA1WNRrZ17ov5l1EffEo6oPAqh?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/sznhBuQ3eF8bQ8-ci6beIXELOypI8h5p64r1MZntkbdGxCxv9ArVaJSBMB5LQbCfTpW03JCduh0WQoYJl0JWmsMOSwdHJXoCloTZSWx7aTELU9Z7P4YTDl-aK2_UW8chPryV1Bs-zc_4mAZpmKtmoUV8Ks_jjzZywWRtdk9DZqxGevoHcVR8BF5_WO6xNBqj?purpose=fullsize)
+
+![Image](https://images.openai.com/static-rsc-4/4KAhf3HhzSOo5FMpzX0KTfOUowL3TrhhuUeJ9m9VptZ0zlYGeDBLeN_Y70auADunscjz3c4TMEBjZng1Jx7ur5m_4F6mBCNc22cH_ySMR6AobGiA8w7wBQMWfXxO7Lcpx7YfqAKkEl-aifX07KyzteS54lfehKqSHgqwzHSzuLgqS3HRMtIC7dcoMFW7jBMt?purpose=fullsize)
+
+**Figure 8: Prompt Engineering Process**
+
+Prompt engineering helps users communicate effectively with AI systems by selecting the appropriate prompting technique. Well-designed prompts improve reasoning, response quality, accuracy, and overall chatbot performance.
+
+---
+
+# **Result**
+
+The experiment demonstrated that different prompt engineering techniques significantly influence AI-generated responses.
+
+* Straightforward Prompting produced quick and direct answers.
+* Tabular Format Prompting organized information clearly.
+* Missing Word Prompting tested contextual understanding.
+* Preceding Question Prompting generated the most detailed troubleshooting responses.
+
+Among the AI tools tested, **ChatGPT** consistently produced the most natural, comprehensive, and user-friendly responses, followed by **Google Gemini** and **Microsoft Copilot**. The results show that selecting the appropriate prompt engineering technique significantly improves chatbot performance and customer satisfaction.
 
 
-
-# Result: The various types of Prompts are executed successfully with generated the report.
